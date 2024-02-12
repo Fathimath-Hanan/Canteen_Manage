@@ -1,0 +1,142 @@
+/* Enhanced CSS styles for a more attractive and cohesive dark theme */
+
+body {
+    background-color: #1a1a1a;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+p {
+    color: #fff;
+}
+
+.special-item,
+.dish {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.special-item img,
+.dish img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.add-to-cart,
+#confirmOrderButton {
+    background-color: #FF4500;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.add-to-cart:hover,
+.cart-item:hover,
+#confirmOrderButton:hover {
+    background-color: #FF6347;
+    transform: scale(1.05);
+}
+
+.cart {
+    background: linear-gradient(to right, #333, #555);
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#cart-items {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    background-color: #444;
+    padding: 15px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.cart-item:hover {
+    background-color: #555;
+}
+
+.cart-item button {
+    background: linear-gradient(to right, #FF4500, #FF6347);
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.cart-item button:hover {
+    background: linear-gradient(to right, #FF6347, #FF4500);
+}
+
+.website-info {
+    margin-top: 30px;
+}
+
+.website-info a {
+    color: #008CBA;
+}
+
+/* Add a slight shadow to the container for depth */
+.container {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Style the headers for a more modern look */
+h1,
+h2 {
+    font-weight: bold;
+}
+
+/* Add a background transition to the website-info section */
+.website-info {
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Darken the background on hover for the website-info section */
+.website-info:hover {
+    background-color: #333;
+}
+
+/* Adjust the font size and spacing for better readability */
+p {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+/* Fine-tune the link color */
+.website-info a {
+    text-decoration: none;
+    border-bottom: 2px solid #0077cc;
+    transition: border-bottom 0.3s ease-in-out;
+}
+
+.website-info a:hover {
+    border-bottom-color: transparent;
+}
